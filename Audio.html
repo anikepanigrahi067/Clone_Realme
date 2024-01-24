@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css?family=Comfortaa|Open+Sans:300,400,600,700');
+
+* {
+    align-items: center;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+p{
+        color: red;
+        text-align: center;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 300;
+}
+nav {
+    position: sticky;
+    background-color: white;
+    color: #000;
+    top: 0;
+    width: 100%;
+    padding: 2px 4px;
+    transition: all 0.4s ease;
+}
+
+nav.sticky {
+    padding: 14px 16px;
+    background: #fbff05;
+}
+
+nav .nav-content {
+    padding: 20;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .logo a {
+    font-weight: 500;
+    font-size: 35px;
+    color: #ffff00;
+}
+
+.nav-content .nav-links {
+    display: flex;
+}
+
+.nav-content .nav-links li {
+    list-style: none;
+    margin: 0 8px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 4px;
+    transition: all 0.3s ease;
+}
+
+.nav-links li a:hover {
+    background-color: black;
+    color: #ffff00;
+}
+
+nav.sticky .nav-links li a {
+    color: #ffd900;
+}
+
+nav.sticky .nav-links li a:hover {
+    color: #0E2431;
+}
+.img{
+    align-items: center;
+}
+.block{
+    align-content: center;
+    align-items: center;
+    padding: 50px;
+    padding-top: 50px;
+}
+.d1 {
+    align-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 30px;
+}
+.d2 {
+    align-content: center;
+    align-items: center;
+    font-size: 3.5rem;
+    font-weight: 700;
+    padding: 13px 0;
+}
+.d3 {
+    align-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #676767;
+}
+.d4 {
+    margin: 40px auto;
+    width: 135px;
+    font-size: 1.3rem;
+    padding: 0 10px;
+    border-bottom: 2px solid #101920;
+    transition: 0.2s all ease-in;
+    position: relative;
+    z-index: 2;
+}
+
+.d4:hover {
+    width: 150px;
+    color: #EB0028;
+    padding: 0 10px;
+    border-bottom: 2px solid #EB0028;
+}
+.one.d2:first-child {
+    margin-top: 200px;
+    padding-bottom: 0;
+    font-size: 3.5rem;
+    font-weight: 400;
+    -webkit-text-fill-color: black;
+}
+.one.d2:nth-child(2) {
+    font-size: 4rem;
+    font-weight: 600;
+    -webkit-text-fill-color: black;
+}
+.one.d3 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 20vh;
+}
+@media (max-width: 780px) {
+    .block:not(.one):not(.two) {
+        text-align: left;
+    }
+
+    .d4 {
+        text-align: center;
+    }
+}
+.d1:nth-of-type(odd),
+.d2:nth-of-type(odd) {
+    background: linear-gradient(to right, #cda330, #73622a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.d1:nth-of-type(even),
+.d2:nth-of-type(even) {
+    background: linear-gradient(to right, #762FC4, black 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+</style>
+<body>
+    <nav>
+        <div class="nav-content">
+            <div class="logo">
+                <img src="Realme.png" alt="" srcset="" width="120" height="80">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#S">Low Latency</a></li>
+                <li><a href="#D">Dual Pair</a></li>
+                <li><a href="#C">ANC</a></li>
+                <li><a href="#Ch">IP68</a></li>
+                <li><a href="#OS">Battery</a></li>
+            </ul>
+        </div>
+        </div></nav>
+        <div class="block1" id="S">
+           <center> <p class="d1">Fast and Smooth</p>
+            <p class="d2">The Speed You Need.</p>
+            <p class="d3">17.02 Centimeter (6.7), Curved Vision Display, The realme Pro 5G smartphone has a 120 Hz curved vision display that
+            ensures immersive display.</p>
+            </div>
+            <center>
+                <div id='block5'>
+                    <img src="Audio/A5.jpg" width="800" alt="phone7a">
+            </center>
+            </div>
+            <div class="block2" id="D">
+              <center><p class="d1">Display</p>
+            <p class="d2">More to see.</p>
+            <p class="d3">The realme Pro 5G smartphone has a 120 Hz curved vision display that ensures immersive display</p>
+            </div></center>    
+            <center>
+                <div id='block5'>
+                    <img src="Audio/A2.jpg" width="800" alt="phone7a">
+                   
+            </center>
+            </div>
+            <div class="block3" id="C">
+            <center><p class="d1">Camera</p>
+            <p class="d2">Capture in no time</p>
+            <p class="d3">Thanks to the 100 MP OIS ProLight camera, you can capture beautiful memories with this smartphone</p></center>    
+            </div>
+            <center>                             
+            <div id='block5'>
+                <img src="Audio/A4.jpg" width="800"  alt="phone7a"> 
+             
+            </center>
+            <div>
+            <div class="block4" id="Ch">
+              <center> <p class="d1">Charging</p>
+            <p class="d2">The Fastest Way.</p>
+            <p class="d3">Fast Charging
+            Equipped with a 67 W SUPERVOOC charge, this smartphone can be charged from 0-50% in less than 18 minutes</p>  </center>  
+            </div>
+            <center>
+                <div id='block5'>
+                    <img src="Audio/A1.jpg" width="800" alt="phone7b">
+            </center>
+            </div>
+            <div class="block6" id="OS">
+             <center> <p class="d1">Operating System</p>
+            <p class="d2">The Speed You Need</p>
+            <p class="d3">With the realme UI 4.0 Based on Android 13, you can enjoy some advanced features like Adaptive Sleep, Notification Hiding, Multi-screen Connect, and Glace to lower ring volume on the realme 11 Pro 5G smartphone.</p> </center>   
+            </div>
+            <center>  <img src="Audio/A3.jpg" width="800" alt="phone7c">
+        </center>
+            </div>
+</body>
+</html>
